@@ -2,7 +2,7 @@
 This is a simple docker tutorial for building and running a C# Hello World application. Dockerfile has been excluded for the sake of the building exercise, and application exits immediately after running the `Console.WriteLine("Hello World!);` command.
 
 ### Prerequisites ###
-- Docker Desktop
+- Docker Desktop (not required, but kind of nice)
 - git
 - VS Code
 - VS Code Extension: Docker
@@ -33,6 +33,9 @@ This is a simple docker tutorial for building and running a C# Hello World appli
 ## 4. Run Docker Image in a Container ##
 ### Terminal ###
 `docker run dockercshelloworld`
+### VS Code ###
+- Right click tagged image and select "Run" (or execute code above)
+- Attach a terminal by right clicking the running container (assuming it is still running) and selecting "Attach Shell"
 ### Docker Desktop ###
 - Open Docker Desktop
 - Select "Images" to see local images (same list as VS Code)
