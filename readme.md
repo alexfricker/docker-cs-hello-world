@@ -41,3 +41,12 @@ This is a simple docker tutorial for building and running a C# Hello World appli
 - Examine logs (Containers > Select container name > Logs)
     - Shows "Hello World!" and container stopped after execution
 - Re-run container (Click the run/play button) to see log entries for each execution
+
+## 5. Next Steps ##
+- Add a sleep command to prevent the container from immediately closing
+    - `using System.Threading; Thread.Sleep(600000);`
+    - rebuild, re-run
+    - open a CLI through Docker Desktop - ">_" icon
+    - explore filesystem
+- Add additional files and try to get them to copy to the container (hint: review the Dockerfile)
+- Add additional code for other tasks and try to build and run
