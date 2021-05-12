@@ -31,6 +31,9 @@ This is a simple docker tutorial for building and running a C# Hello World appli
     - named the same as the folder you built the files from
 
 ## 4. Run Docker Image in a Container ##
+### Terminal ###
+'docker run dockerpythonhelloworld'
+### Docker Desktop ###
 - Open Docker Desktop
 - Select "Images" to see local images (same list as VS Code)
 - Hover over "dockercshelloworld" and select "Run" to create and start a container with this image
