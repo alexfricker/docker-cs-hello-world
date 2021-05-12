@@ -22,8 +22,6 @@ This is a simple docker tutorial for building and running a C# Hello World appli
 - Inspect generated docker files:
     - Dockerfile
         - contains specifications for docker image
-    - requirements.txt
-        - contains list of required python libraries
 
 ## 3. Build Docker Image ##
 - Press "F1" and type "docker build". Select "Docker Images: Build Image..."
